@@ -55,7 +55,7 @@
          </ul>
        </li>
         <li><a href="#">معرض  الصور </a></li>
-        <li><a href="contactusar">أتصل بنا </a></li>
+        <li><a href="{% url 'contactusar'%}">أتصل بنا </a></li>
         <li><a  class="loc" href="{% url 'home' %}">ENGLISH</a></li>
 
   
@@ -75,11 +75,11 @@
       </h1>
         </div>
    
-    {% block postmabna%}
+    {% block postmabnaar%}
   {%endblock%}
-    {% block contactus %}
+    {% block contactusar %}
 {% endblock%}
-{% block owlslider %}
+{% block owlsliderar %}
 <br>
 <div class="slider">
   <div class="owl-carousel owl-theme">

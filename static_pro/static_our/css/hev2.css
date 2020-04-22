@@ -229,7 +229,7 @@ header nav ul li a.active{
 		color: rgba(0, 183, 255, 0.685);
 
 	}
-	i#fa{
+	a#fa{
 		position: absolute;
 		top:0;
 		right: 0px;

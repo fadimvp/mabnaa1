@@ -130,7 +130,7 @@ body {
     transform: -10rem; }
 
 .fa {
-  color: white; }
+  columns: #19191a42; }
   .fa:hover {
     color: #007bff; }
 

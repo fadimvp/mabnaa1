@@ -8,7 +8,6 @@ body{
 header{
 	direction: rtl;
 	text-align: right;
-
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -20,9 +19,6 @@ header{
 	
 
 }
-
-
-
 
 header .logo img{
 	color: #ffffff;
@@ -171,14 +167,16 @@ header nav ul li a.active{
 
 	.text-box{
 		position: absolute;
-		top:50%;
+		top:40%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 		text-align: center;
 		margin-top: 54px;
 		
 	}
-	
+	.search_box{
+		margin-bottom: 15%;
+	}
 	.primary{
 		color: #fff;
 		text-transform: uppercase;

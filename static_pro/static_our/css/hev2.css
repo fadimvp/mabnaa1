@@ -202,7 +202,7 @@ header nav ul li a.active{
 		.form{
 			top: -35%;
 		}
-		.form:active {
+		.form:hover  {
 			top: -20% !important;
 
 

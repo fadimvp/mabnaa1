@@ -185,11 +185,11 @@ header nav ul li a.active{
 		
 	}
 	.form{
-		position: absolute;
+		position: relative;
 		width: 60px;
 		height: 60px;
 		left: 50%;
-		top:-50%;
+		top:-50px;
 		padding: 5px;
 		transform: translate(-50%,50%);
 		border-radius: 50px;

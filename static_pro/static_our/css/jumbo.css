@@ -8,6 +8,7 @@
     background-position-y: 50%;  
     background-attachment: fixed;
     clip-path:polygon( 0 0, 100% 0, 100% 75vh, 0 100%) ;
+    margin-top: 76px;
 
 
 }

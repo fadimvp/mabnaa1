@@ -185,7 +185,7 @@ header nav ul li a.active{
 		
 	}
 	.form{
-		position: relative;
+		position: fixed;
 		width: 60px;
 		height: 60px;
 		left: 50%;
@@ -198,7 +198,7 @@ header nav ul li a.active{
 		transition: 1.5s;
 	}
 	.input{
-		position:absolute;
+		position:fixed;
 		top: 0;
 		left: 0;
 		border: 0;

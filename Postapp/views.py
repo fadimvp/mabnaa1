@@ -54,10 +54,39 @@ def post_mabna(request):
     }
     return render(request,'postmabna.html',context)
 
+def post_hotels(request):
+
+    context={
+
+    }
+    return render(request,'hotels.html',context)
+
+def post_asmer(request):
+
+    context={
+
+    }
+    return render(request,'asmer.html',context)
+
+
+
 def post_mabnaar(request):
 
     context={
 
     }
     return render(request,'mabna_ar/postmabaar.html',context)
+def post_hotelsar(request):
+
+    context={
+
+    }
+    return render(request,'mabna_ar/hotelsar.html',context)
+
+def post_asmerar(request):
+
+    context={
+
+    }
+    return render(request,'mabna_ar/asmerar.html',context)
 

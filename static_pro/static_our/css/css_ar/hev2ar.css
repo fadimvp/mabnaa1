@@ -167,15 +167,78 @@ header nav ul li a.active{
 
 	.text-box{
 		position: absolute;
-		top:40%;
+		top:50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 		text-align: center;
 		margin-top: 54px;
 		
 	}
-	.search_box{
-		margin-bottom: 15%;
+	.form{
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		top:-100%;
+		padding: 5px;
+		transform: translate(-50%,50%);
+		border-radius: 50px;
+		border: 4px solid #fff;
+		background: #fff;
+		transition: 1.5s;
+	}
+	@media(max-width:991px){
+		.form{
+			top: -35%;
+		}
+		.form:hover,.form.btn.active {
+			top: 20% !important;
+
+
+
+		}
+
+
+	}
+
+	.input{
+		position:absolute;
+		top: 0;
+		left: 0;
+		border: 0;
+		width: 100%;
+		height: 52px;
+		line-height: 75px;
+		outline: 0;
+		display: none;
+		font-size: 16px;
+		border-radius: 25px;
+		padding: 0 20px;
+		font-family: shrikhand;
+		color: rgba(0, 183, 255, 0.685);
+
+	}
+	a#fa{
+		position: absolute;
+		top:0;
+		right: 0px;
+		width: 52px;
+		height: 52px;
+		box-sizing: border-box;
+		border-radius: 50%;
+		text-align: center;
+		font-size: 25px;
+		transition: 1.5s;
+		color: tomato;
+		background: #262626;
+		padding: 15px;
+	}
+	.form:hover{
+		width: 300px;
+		cursor: block;
+	}
+	form:hover .input{
+		display: block;
 	}
 	.primary{
 		color: #fff;

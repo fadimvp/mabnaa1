@@ -44,13 +44,13 @@
     <div class="logo"><img src="{% static 'img/mabna holding.png'%}"></div>
     <nav class="active">
       <ul>
-        <li><a href="#" class="active">من نحن</a></li>
+        <li><a href="{% url 'indexar' %}" class="active">من نحن</a></li>
         <!-- <li><a href="#">من نحن </a></li> -->
         <li class="sub-menu"><a href="#">الأستثمارات</a>
           <ul>
-           <li><a href="#">مبني القابضة</a></li>
-           <li><a href="#">أثمر</a></li>
-           <li><a href="#">فنادق</a></li>
+           <li><a href="{% url 'postmabnaar' %}">مبني القابضة</a></li>
+           <li><a href="{% url 'asmerar'%}">أثمر</a></li>
+           <li><a href="{% url 'hotelsar'%}">فنادق</a></li>
  
          </ul>
        </li>
@@ -68,10 +68,14 @@
     </div>
     
     <div class="text-box">
-      <div class="search_box">
-        <input class="input_box" type="text" name="" placeholder="Search">
-       <a href=""><i class="fa fa-search"></i></a>
-       </div>
+  
+      <form  class="form" action="">
+        <input class="input" type="search" placeholder="Search">
+        <a href="#" id ="fa"class="fa fa-search"></a>
+     
+        </i>
+         </form>  
+        
       
       <h1 class="primary"> 
        <span class="primary-main"> مرحبآ بكم فى </span>
@@ -82,6 +86,8 @@
    
     {% block postmabnaar%}
   {%endblock%}
+  {% block text-contantar %}
+{%endblock%}
     {% block contactusar %}
 {% endblock%}
 {% block owlsliderar %}

@@ -18,11 +18,27 @@
     font-size: $default-font-size;
     font-weight: 700;
     text-transform: uppercase;
+    color:blue;
 }
 .paragraph{
     font-size: $default-font-size;
     &:not(:last-child){
         margin-bottom: 3rem;
     }
+    
+    
 
+}
+.underslider{
+    color: blue;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.underslider_sub{
+    padding: 15px;
+    line-height: 3em;
 }

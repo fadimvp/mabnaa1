@@ -1,5 +1,5 @@
 from django.contrib import admin
-from Postapp.models import PostList
+from Postapp.models import PostList,Home
 # Register your models here.
 
 
@@ -10,3 +10,5 @@ class AdminPost(admin.ModelAdmin):
     class Meta :
         model = PostList
 admin.site.register(PostList,AdminPost)
+admin.site.register(Home)
+

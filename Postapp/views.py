@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from  Postapp.models import Home
 
 # Create your views here
 def home (request ):
@@ -41,8 +42,11 @@ def invmabna(request):
     return render(request,'invmabna.html',context)
 
 def index_ar(request):
+    form = Home.objects.all()
 
-    context={
+
+    context = {
+        'form':form,
 
     }
     return render(request,'mabna_ar/indexar.html',context)

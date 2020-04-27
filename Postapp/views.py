@@ -43,7 +43,7 @@ def invmabna(request):
 
 def index_ar(request):
     form = Home.objects.all()
-
+ 
 
     context = {
         'form':form,

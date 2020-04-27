@@ -2,7 +2,7 @@ from django.contrib import admin
 from Postapp.models import PostList,Home
 # Register your models here.
 
-
+ 
 
 
 class AdminPost(admin.ModelAdmin):

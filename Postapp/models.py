@@ -7,7 +7,7 @@ class PostList(models.Model):
     context = models.TextField()
     publish = models.DateTimeField(auto_now_add=True,auto_now=False)
     update = models.DateTimeField(auto_now_add=False,auto_now=True)
-
+ 
     def __str__(self):
         return self.title
 class Home(models.Model):

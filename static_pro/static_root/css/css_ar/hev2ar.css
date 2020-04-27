@@ -1,13 +1,15 @@
 html, body{
 
     direction: rtl;
-    text-align: right;
+	text-align: right;
+	float: right;
 }
 
 
 .header .logo {
 
-
+    direction: rtl;
+    text-align: right;
 
 	color: #fff;
 	height:70px;
@@ -43,6 +45,10 @@ html, body{
 
 	}
 .logo img{
+	
+    direction: rtl;
+	text-align: right;
+	float: right;
 	 height: 70px;
 	 width: 70px;
 	background: #c1cbde;
@@ -361,7 +367,7 @@ animation: animate 15s linear infinite
 
 	margin: 50px auto;
 	text-align: center;
-	width: 1000px;
+	width: 100px;
 }
 .card-body ul li {
 	text-align: right;

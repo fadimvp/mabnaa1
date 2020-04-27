@@ -1,4 +1,7 @@
 #footer{
+	
+    direction: rtl;
+	text-align: right;
     background: #00428a;
     padding: 0 0 30px 0;
     color: #eeeeee;
@@ -7,10 +10,17 @@
 }
 #footer .footer-top{
     background: #004a99;
-    padding: 60px 0 30px 0;
+	padding: 60px 0 30px 0;
+	
+    direction: rtl;
+	text-align: right;
 }
 #footer .footer-top .footer-info{
-    margin-bottom: 30px;
+	margin-bottom: 30px;
+	
+    direction: rtl;
+	text-align: right;
+	
 }
 #footer .footer-top .footer-info h3{
     font-size: 34px;
@@ -23,8 +33,14 @@
 	letter-spacing: 3px;
 	text-transform: uppercase;
 
+    direction: rtl;
+	text-align: right;
+
 }
 #footer .footer-top .footer-info p{
+
+    direction: rtl;
+	text-align: right;
 	font-size: 13px;
 	line-height: 24px;
 	margin-bottom: 0;
@@ -32,6 +48,9 @@
 	color: #ecf5ff;
 }
 #footer .footer-top .social-links a{
+
+    direction: rtl;
+	text-align: right;
 	font-size: 18px;
 	display: inline-block;
 	background: #007bff;
@@ -50,6 +69,9 @@
 	color: #fff;
 }
 #footer .footer-top  h4 {
+
+    direction: rtl;
+	text-align: right;
 	font-size: 14px;
 	font-weight: bold;
 	color: #fff;

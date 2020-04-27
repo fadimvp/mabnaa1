@@ -14,8 +14,8 @@ class Home(models.Model):
     about1 =models.CharField(max_length=20) 
     body1 = models.TextField()
     title2 =models.CharField(max_length=20) 
-    body2 = models.TextField(max_length=125)
+    body2 = models.TextField()
     title3 =models.CharField(max_length=20) 
-    body3 = models.TextField(max_length=125)
+    body3 = models.TextField()
     def __str__(self):
         return self.about1

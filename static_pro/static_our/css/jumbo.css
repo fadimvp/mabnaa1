@@ -1,0 +1,22 @@
+.jumbo{
+	position: inherit;
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(51, 51, 52, 0.17), rgba(54, 56, 62, 0.73)), url( "/static/img/ma1.jpg");;
+	/* background-image: linear-gradient(to right bottom, rgba(51, 51, 52, 0.94), rgba(54, 56, 62, 0.73)),
+     url( "/static/img/ma1.jpg");
+      */
+	background-size: cover;
+    background-position-y: 50%;  
+    background-attachment: fixed;
+    clip-path:polygon( 0 0, 100% 0, 100% 75vh, 0 100%) ;
+    margin-top: 76px;
+
+
+}
+
+.jumbo::after{
+    content: "";
+    position: relative;
+    top: 200px;
+    right: 20px;
+}

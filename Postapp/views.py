@@ -49,7 +49,7 @@ def index_ar(request):
         'form':form,
 
     }
-    return render(request,'mabna_ar /indexar.html',context)
+    return render(request,'mabna_ar/indexar.html',context)
 
 def post_mabna(request):
 

@@ -25,15 +25,20 @@ header{
 
 
 
+
 header .logo img{
 	color: #ffffff;
-	height: 76px;
-	width: 100px;
-	line-height: 76px;
+	height: 100px !important;
+	width: 78px;
+	line-height: 58px;
 	font-size: 24px;
 	float: left;
 	font-weight: bold;
-}
+	top: -7px;
+	left: 16px;
+	margin-right: 21px;
+	margin: 0px 2%;
+	}
 
 header nav {
 	float: right;

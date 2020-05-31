@@ -15,12 +15,17 @@ header{
 }
 header .logo {
 
-	color: #fff;
-	height:70px;
-	line-height: 50px;
-	font-size: 24px;
-	float: left;
-	font-weight: bold;
+	color: #ffffff;
+height: 100px !important;
+width: 78px;
+line-height: 58px;
+font-size: 24px;
+float: left;
+font-weight: bold;
+top: -7px;
+left: 16px;
+margin-right: 21px;
+margin: 0px 2%;
 }
 
 

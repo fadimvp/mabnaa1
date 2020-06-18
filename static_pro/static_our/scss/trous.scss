@@ -1,0 +1,72 @@
+.section-tours{
+    background-color: green($color: #000000);
+    padding: 25rem 0 50rem 0;
+    margin-top: -10rem;
+}
+.heading-secondary{
+
+
+margin-top: 111px;
+color: black;
+text-align: center;
+}
+ .card{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    font-size: 2rem;
+    position: relative;
+    height: 25rem;
+    &__side{
+    background-color: orangered !important;
+    height: 25rem;
+    transition: all 5s ease;
+    position: absolute;
+     top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: 0.15);
+
+    &--front{
+        background-color: white !important;
+
+
+
+    }
+    &--back{
+        transform: rotateY(180deg);
+        &-1{
+            background-image:linear-gradient( to right bottom, #ffb900,#ff7730);
+        }
+
+    }
+}
+    &:hover &__side--front{
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--back{
+        transform: rotateY(0deg);
+    }
+
+
+//front side styling 
+&__picture{  
+    background-size: cover;
+    height: 23rem;
+    
+    &--1 {
+        background-image: url('/static/img/asm.png');
+    }
+    &--2 {
+        background-image: url('/static/img/asm.png');
+    }
+    &--3 {
+        background-image: url('/static/img/asm.png');
+    }
+}
+
+ }
+ .row{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}

@@ -8,7 +8,7 @@ def home (request ):
     context = {
 
     }
-    return render(request,'indexv2.html',context)
+    return render(request,'mabna_en/index.html',context)
 
 def about (request ):
 
@@ -18,13 +18,17 @@ def about (request ):
     }
     return render(request,'about.html',context)
 
+def owl(request):
+    context={
 
+    }
+    return render(request,'owl.html',context)
 def contactus(request):
 
     context={
 
     }
-    return render(request,'contactus.html',context)
+    return render(request,'mabna_en/contactus.html',context)
 
 def contactusar(request):
 
@@ -56,7 +60,7 @@ def post_mabna(request):
     context={
 
     }
-    return render(request,'postmabna.html',context)
+    return render(request,'mabna_en/postmabna.html',context)
 
 def post_hotels(request):
 
@@ -94,3 +98,8 @@ def post_asmerar(request):
     }
     return render(request,'mabna_ar/asmerar.html',context)
 
+def all_project(request):
+    context={
+
+    }
+    return render(request,'mabna_en/allproject_en.html',context)

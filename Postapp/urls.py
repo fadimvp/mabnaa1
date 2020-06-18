@@ -15,9 +15,13 @@ urlpatterns=[
     path('indexar',views.index_ar,name='indexar'),
     path('contactus',views.contactus,name='contactus'),
     path('contactusar',views.contactusar,name='contactusar'),
+    path('all_project',views.all_project,name='all_project'),
+
     path('postmabnaar',views.post_mabnaar,name='postmabnaar'),
     path('asmerar',views.post_asmerar,name='asmerar'),
     path('hotelsar',views.post_hotelsar,name='hotelsar'),
+    path('owl',views.owl,name='owl'),
+
 
 
 

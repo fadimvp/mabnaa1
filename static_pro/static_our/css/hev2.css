@@ -52,7 +52,9 @@ header{
 } 
 
 
+
 header .logo img{
+<<<<<<< HEAD
 color: #ffffff;
 height: 100px !important;
 width: 78px;
@@ -65,6 +67,20 @@ left: 16px;
 margin-right: 21px;
 margin: 0px 2%;
 }
+=======
+	color: #ffffff;
+	height: 100px !important;
+	width: 78px;
+	line-height: 58px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+	top: -7px;
+	left: 16px;
+	margin-right: 21px;
+	margin: 0px 2%;
+	}
+>>>>>>> 88962c2ff198439a0b3f92fe13b7e8d05908173d
 
 header nav {
 	float: right;

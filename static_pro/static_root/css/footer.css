@@ -156,10 +156,12 @@
 
 
 
-
+ .bk{
+	background: #1c354f;
+}
 
  .bttn{
-	background-color: #00979d;
+	background-color: #c37a2d;
 	color: white;
 	transition: .8s;
 	line-height: 50%;
@@ -190,6 +192,7 @@
 	margin: 30px auto;
 	max-height: 100px;
 	max-width: 80px;
+	margin-left: 40%;
 
 
 }

@@ -2,19 +2,20 @@ body{
 
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
-	
-	
-
-
 }
+
+	
+
+
+
 header{
 	
 	position: fixed;
 	top: 0;
 	left: 0;
 	padding: 0 ;
-	background: rgb(52, 58, 64);
+	/* background: rgb(52, 58, 64); */
+	background: #1a1919;
 	width: 100%;
 	box-sizing: border-box;
 	z-index: 10;
@@ -31,6 +32,11 @@ header{
 
 
 }
+ /* .py-5{
+	margin: 118px 37px 83px 4px !important; */
+	.py-5 {
+		margin: 102px 2px 82px 0px !important;
+}
 .item .asm {
 	background-color: red;
 }
@@ -46,7 +52,9 @@ header{
 } 
 
 
+
 header .logo img{
+<<<<<<< HEAD
 color: #ffffff;
 height: 100px !important;
 width: 78px;
@@ -59,6 +67,20 @@ left: 16px;
 margin-right: 21px;
 margin: 0px 2%;
 }
+=======
+	color: #ffffff;
+	height: 100px !important;
+	width: 78px;
+	line-height: 58px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+	top: -7px;
+	left: 16px;
+	margin-right: 21px;
+	margin: 0px 2%;
+	}
+>>>>>>> 88962c2ff198439a0b3f92fe13b7e8d05908173d
 
 header nav {
 	float: right;
@@ -80,6 +102,7 @@ header nav ul li {
 	position: relative;
 	text-decoration: none;
 	list-style: none;
+	margin-top: 11px !important;
 }
 header nav ul li.sub-menu::before {
 	content: "\f0d7";
@@ -180,7 +203,8 @@ header nav ul li a.active{
 	}
 	header nav ul li ul{
 		position: relative;
-		background: #003e6f;
+		/* background: #003e6f; */
+		background: gray;
 	}
 	header nav ul li ul li {
 		width: 100%;

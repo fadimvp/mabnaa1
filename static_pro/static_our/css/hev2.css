@@ -15,7 +15,7 @@ header{
 	left: 0;
 	padding: 0 ;
 	/* background: rgb(52, 58, 64); */
-	background:red;
+	background:#333333;
 	width: 100%;
 	box-sizing: border-box;
 	z-index: 10;
@@ -150,7 +150,7 @@ header nav ul li a.active{
 }
 .menu-toggle{
 	color: #fff;
-	float: right;
+	float: left;
 	line-height: 76px;
 	background-size: 24px;
 	cursor: pointer;

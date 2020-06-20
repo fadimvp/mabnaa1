@@ -247,6 +247,10 @@ h1, h2, h3, h4, h5 {
     opacity: 1;
     visibility: visible; }
   .owl-carousel.home-slider .slider-item {
+
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: mandatory;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

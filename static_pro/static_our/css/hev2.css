@@ -309,7 +309,7 @@ header nav ul li a.active{
 	
 	}
 	.primary-out {
-	 background: scroll;
+	 /* background: scroll; */
 	display: block;
 	font-size: 50px;
 	font-weight: 700;

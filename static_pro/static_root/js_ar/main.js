@@ -182,3 +182,11 @@ $(document).ready(function(){
     }
 	})
 })
+
+
+var home =document.querySelector('.slider-item');
+window.addEventListener('scroll',function(){
+  var value =--10 + window.scrollY;
+  home.style.transform ='skewY(' + value +'deg)'
+
+})

@@ -4,6 +4,7 @@
 @import "mixins";
 
 
+
 body {
 	background: $white;
 	font-family: $font-family-sans-serif;
@@ -275,19 +276,19 @@ header {
 			right: 30px!important;
 		}
 	}
-	.owl-dots {
-		text-align: center;
-		.owl-dot {
-			width: 10px;
-			height: 10px;
-			margin: 5px;
-			border-radius: 50%;
-			background: lighten($black, 90%);
-			&.active {
-				background: theme-color('primary');
-			}
-		}
-	}
+	// .owl-dots {
+	// 	text-align: center;
+	// 	.owl-dot {
+	// 		// width: 10px;
+	// 		// height: 10px;
+	// 		// margin: 5px;
+	// 		// border-radius: 50%;
+	// 		background: lighten($black, 90%);
+	// 		&.active {
+	// 			background: theme-color('primary');
+	// 		}
+	// 	}
+	// }
 
 	// big slider
 	&.home-slider {
@@ -347,10 +348,10 @@ header {
 				}
 			}
 		}
-		.owl-dots {
-			position: absolute;
-			bottom: 150px;
-			width: 100%;
+		// .owl-dots {
+		// 	position: absolute;
+		// 	bottom: 150px;
+		// 	width: 100%;
 
 			.owl-dot {
 				width: 18px;
@@ -378,7 +379,7 @@ header {
 					// border: 2px solid rgba(255,255,255,1);
 					span {	
 						background: rgba(255,255,255,1);
-					}	
+				
 				}
 			}
 

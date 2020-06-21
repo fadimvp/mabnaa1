@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: "Niramit", Arial, sans-serif;
+  font-family: "raleway", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8;
@@ -15,7 +15,7 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
+  color: rgb(255, 255, 255);
   font-family: "K2D", sans-serif; }
 
 .btn, .form-control {
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5 {
     color: #000; }
 
 /* Header */
-header {
+/* header {
   position: relative;
   top: 0;
   left: 0;
@@ -185,7 +185,7 @@ header {
       @media (max-width: 991.98px) {
         .cta-overlap .text h2 {
           margin-bottom: 20px;
-          font-size: 26px; } }
+          font-size: 26px; } } */
 
 .custom-icon {
   font-size: 70px;
@@ -236,8 +236,8 @@ header {
   z-index: 1;
   position: relative; }
   .owl-carousel.home-slider .owl-nav {
-    opacity: 2;
-    visibility: collapse;
+    opacity: 0;
+    visibility: hidden;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
@@ -251,7 +251,6 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     height: calc(100vh - 117px);
-    z-index: auto;
     min-height: 700px; }
     .owl-carousel.home-slider .slider-item .slider-text {
       color: #fff;
@@ -278,10 +277,10 @@ header {
       color: #fff;
       height: calc(50vh - 117px);
       min-height: 500px; }
-  .owl-carousel.home-slider .owl-dots {
+  /* .owl-carousel.home-slider .owl-dots {
     position: absolute;
     bottom: 150px;
-    width: 100%; }
+    width: 100%; } */
     .owl-carousel.home-slider .owl-dots .owl-dot {
       width: 18px;
       height: 18px;

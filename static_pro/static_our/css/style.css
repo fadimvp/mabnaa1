@@ -218,11 +218,11 @@ h1, h2, h3, h4, h5 {
     .owl-carousel .owl-nav .owl-prev span:before,
     .owl-carousel .owl-nav .owl-next span:before {
       font-size: 40px; }
-  .owl-carousel .owl-nav .owl-prev {
+  /* .owl-carousel .owl-nav .owl-prev {
     left: 30px !important; }
   .owl-carousel .owl-nav .owl-next {
-    right: 30px !important; }
-
+    right: 30px !important; } */
+/* 
 .owl-carousel .owl-dots {
   text-align: center; }
   .owl-carousel .owl-dots .owl-dot {
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5 {
 
 .owl-carousel.major-caousel .owl-dots {
   bottom: -30px !important;
-  position: relative; }
+  position: relative; } */
 
 .owl-custom-nav {
   float: right;
@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5 {
   -o-transition: opacity .2s ease-out, visibility 0s linear .2s;
   transition: opacity .2s ease-out, visibility 0s linear .2s;
   z-index: 1000; }
-
+/* 
 #loader.fullscreen {
   padding: 0;
   left: 0;
@@ -705,4 +705,4 @@ h1, h2, h3, h4, h5 {
     stroke-dashoffset: -35px; }
   100% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
+    stroke-dashoffset: -136px; } } */

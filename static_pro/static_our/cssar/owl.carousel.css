@@ -7,7 +7,8 @@
  *  Owl Carousel - Core
  */
 .owl-carousel {
-  display: none;
+  background: scroll;
+  background-attachment: scroll;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
@@ -21,13 +22,13 @@
     /* fix firefox animation glitch */ }
   .owl-carousel .owl-stage:after {
     content: ".";
-    display: block;
+    display: grid;
     clear: both;
     visibility: hidden;
     line-height: 0;
     height: 0; }
   .owl-carousel .owl-stage-outer {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px); }

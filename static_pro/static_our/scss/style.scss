@@ -291,23 +291,23 @@ header {
 	// }
 
 	// big slider
-	&.home-slider {
-		z-index: 1;
-		position: relative;
-		.owl-nav {
-			opacity: 0;
-			visibility: hidden;
-			transition: .3s all ease;
-			button {
-				color: $white;
-			}
-		}
-		&:focus, &:hover {
-			.owl-nav {
-				opacity: 1;
-				visibility: visible;
-			}
-		}
+	// &.home-slider {
+	// 	z-index: 1;
+	// 	position: relative;
+	// 	.owl-nav {
+	// 		opacity: 0;
+	// 		visibility: hidden;
+	// 		transition: .3s all ease;
+	// 		button {
+	// 			color: $white;
+	// 		}
+	// 	}
+	// 	&:focus, &:hover {
+	// 		.owl-nav {
+	// 			opacity: 1;
+	// 			visibility: visible;
+	// 		}
+	// 	}
 
 		.slider-item {
 			background-size: cover;
@@ -336,7 +336,7 @@ header {
 					color: rgba(255,255,255,1);
 				}
 			}
-		}
+		// }
 		&.inner-page {
 			.slider-item {
 				height: calc(50vh - 117px);

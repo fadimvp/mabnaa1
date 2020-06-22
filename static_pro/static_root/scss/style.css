@@ -208,50 +208,38 @@ header {
   .owl-carousel .owl-nav .owl-next {
     right: 30px !important; }
 
-.owl-carousel.home-slider {
-  z-index: 1;
-  position: relative; }
-  .owl-carousel.home-slider .owl-nav {
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s all ease; }
-    .owl-carousel.home-slider .owl-nav button {
-      color: #fff; }
-  .owl-carousel.home-slider:focus .owl-nav, .owl-carousel.home-slider:hover .owl-nav {
-    opacity: 1;
-    visibility: visible; }
-  .owl-carousel.home-slider .slider-item {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.owl-carousel .slider-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: calc(100vh - 117px);
+  min-height: 700px; }
+  .owl-carousel .slider-item .slider-text {
+    color: #fff;
     height: calc(100vh - 117px);
     min-height: 700px; }
-    .owl-carousel.home-slider .slider-item .slider-text {
+    .owl-carousel .slider-item .slider-text h1 {
+      font-size: 3rem;
       color: #fff;
-      height: calc(100vh - 117px);
-      min-height: 700px; }
-      .owl-carousel.home-slider .slider-item .slider-text h1 {
-        font-size: 3rem;
-        color: #fff;
-        line-height: 1.2;
-        font-weight: 800 !important;
-        text-transform: uppercase; }
-        @media (max-width: 991.98px) {
-          .owl-carousel.home-slider .slider-item .slider-text h1 {
-            font-size: 40px; } }
-      .owl-carousel.home-slider .slider-item .slider-text p {
-        font-size: 20px;
-        line-height: 1.5;
-        font-weight: 300;
-        color: white; }
-  .owl-carousel.home-slider.inner-page .slider-item {
+      line-height: 1.2;
+      font-weight: 800 !important;
+      text-transform: uppercase; }
+      @media (max-width: 991.98px) {
+        .owl-carousel .slider-item .slider-text h1 {
+          font-size: 40px; } }
+    .owl-carousel .slider-item .slider-text p {
+      font-size: 20px;
+      line-height: 1.5;
+      font-weight: 300;
+      color: white; }
+  .owl-carousel .slider-item.inner-page .slider-item {
     height: calc(50vh - 117px);
     min-height: 500px; }
-    .owl-carousel.home-slider.inner-page .slider-item .slider-text {
+    .owl-carousel .slider-item.inner-page .slider-item .slider-text {
       color: #fff;
       height: calc(50vh - 117px);
       min-height: 500px; }
-  .owl-carousel.home-slider .owl-dot {
+  .owl-carousel .slider-item .owl-dot {
     width: 18px;
     height: 18px;
     margin: 5px;
@@ -261,7 +249,7 @@ header {
     outline: none !important;
     position: relative;
     transition: .3s all ease; }
-    .owl-carousel.home-slider .owl-dot span {
+    .owl-carousel .slider-item .owl-dot span {
       position: absolute;
       width: 20px;
       height: 3px;
@@ -269,7 +257,7 @@ header {
       left: 50%;
       top: 50%;
       display: block; }
-    .owl-carousel.home-slider .owl-dot.active span {
+    .owl-carousel .slider-item .owl-dot.active span {
       background: white; }
 
 .owl-carousel.major-caousel .owl-stage-outer {
